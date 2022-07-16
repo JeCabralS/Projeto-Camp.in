@@ -1,0 +1,96 @@
+@import url(./color.css);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: #24221f;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  padding-left: 30px;
+  align-items: center;
+}
+
+.input {
+  display: flex;
+}
+
+.image_car {
+  max-width: 100%;
+  display: block;
+  border-radius: 5px;
+  overflow-y: hidden;
+}
+
+.logo_camp {
+  padding: 20px 50px;
+}
+
+.facaLogin {
+  text-align: center;
+  padding: 20px;
+  margin-right: 10px;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  gap: 20px;
+  border: 1px solid #3a3835;
+}
+
+.input_color {
+  background-color: #191816;
+}
+
+.paragraf {
+  padding: 20px;
+  color: #ffffff;
+}
+
+.button {
+  margin: 40px;
+  padding: 10px 20px;
+  background: #ffc632;
+  color: #24221f;
+  text-decoration: none;
+  display: block;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-color: #e0ac29;
+}
+
+.input_design {
+  border: 1px solid #a99e83;
+  padding: 8px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px 50px;
+  background: #24221f;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-size: 0.6rem;
+}
+
+.flex_log {
+  display: flex;
+  gap: 20px;
+}
+
+.check {
+  padding-right: 20px;
+  text-align: center;
+}
